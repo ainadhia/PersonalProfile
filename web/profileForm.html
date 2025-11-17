@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Personal Profile Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body>
+        <h2>Personal Profile Form</h2>
+        <form action="ProfileServlet" method="post">
+            Name: <input type="text" name="name"><br><br>
+            Student ID: <input type="text" name="studentId"><br><br>
+            Program: <input type="text" name="program"><br><br>
+            Email: <input type="email" name="email"><br><br>
+            Hobbies: <input type="text" name="hobby"><br><br>
+            Introduction:<br>
+            
+            <textarea name="intro"></textarea><br><br>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>
