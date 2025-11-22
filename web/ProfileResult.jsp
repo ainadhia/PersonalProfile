@@ -25,13 +25,13 @@
                 background-color: #ffffff; 
                 padding: 40px;
                 border-radius: 20px;
-                box-shadow: 0 10px 30px rgba(107, 91, 149, 0.05); /* match first page shadow */
+                box-shadow: 0 10px 30px rgba(107, 91, 149, 0.05);
                 max-width: 550px;
                 width: 100%;
             }
 
             h2 {
-                color: #6b5b95; /* match first page heading color */
+                color: #6b5b95; 
                 text-align: center;
                 margin-bottom: 30px;
                 font-size: 28px;
@@ -43,13 +43,13 @@
                 gap: 15px;
                 padding: 15px;
                 margin-bottom: 15px;
-                background: #fafafa; /* light neutral background */
+                background: #fafafa; 
                 border-radius: 12px;
-                border-left: 4px solid #6b5b95; /* match first page accent */
+                border-left: 4px solid #6b5b95; 
             }
 
             .info-item i {
-                color: #6b5b95; /* match first page icon color */
+                color: #6b5b95;
                 font-size: 20px;
                 margin-top: 3px;
                 width: 25px;
@@ -74,7 +74,7 @@
             .back-button {
                 width: 100%;
                 padding: 14px;
-                background-color: #f7cac9; /* match first page button */
+                background-color: #f7cac9; 
                 color: white;
                 border: none;
                 border-radius: 10px;
@@ -89,7 +89,7 @@
             }
 
             .back-button:hover {
-                background-color: #f1948a; /* match first page button hover */
+                background-color: #f1948a;
                 transform: translateY(-2px);
                 box-shadow: 0 8px 20px rgba(241, 148, 138, 0.3);
             }
