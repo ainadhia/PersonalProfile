@@ -158,7 +158,7 @@
                 <td><%= rs.getString("hobbies") %></td>
                 <td><%= rs.getString("intro") %></td>
                 <td>
-                    <a class="action-link" href="#"><i class="fas fa-toggle-on"></i></a>
+                    <!--<a class="action-link" href="#"><i class="fas fa-toggle-on"></i></a>-->
                     <a class="action-link" href="editProfile.jsp?studentId=<%= studentId %>"><i class="fas fa-pen"></i></a>
                     <a class="action-link delete-link" href="DeleteProfileServlet?studentId=<%= studentId %>" onclick="return confirm('Are you sure you want to delete this profile?');"><i class="fas fa-trash"></i></a>
                 </td>
